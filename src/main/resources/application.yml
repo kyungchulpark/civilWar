@@ -1,0 +1,18 @@
+spring:
+    application:
+        name: civilwar
+    devtools:
+        livereload:
+            enabled: true
+        restart:
+            enabled: ture
+        thymeleaf:
+            cache: false
+    datasource:
+        url: jdbc:mariadb://localhost:3306/yourdatabase
+        username: yourusername
+        password: yourpassword
+    jpa:
+        hibernate:
+            ddl-auto: update
+        show-sql: true
